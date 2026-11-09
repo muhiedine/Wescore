@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Wescore/static/css/main.d71aae87.css",
+    "main.js": "/Wescore/static/js/main.0fbbdf72.js",
+    "index.html": "/Wescore/index.html",
+    "main.d71aae87.css.map": "/Wescore/static/css/main.d71aae87.css.map",
+    "main.0fbbdf72.js.map": "/Wescore/static/js/main.0fbbdf72.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d71aae87.css",
+    "static/js/main.0fbbdf72.js"
+  ]
+}
