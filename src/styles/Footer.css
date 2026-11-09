@@ -1,0 +1,13 @@
+/* Footer styled with the CSS flexbox and media queries demonstrated in class. */
+.site-footer { background: #061d16; color: white; padding-top: 65px; }
+.footer-top { display: flex; justify-content: space-between; gap: 38px; padding-bottom: 48px; }
+.footer-top h2 { font-size: 38px; letter-spacing: -2px; margin: 0 0 9px; }
+.footer-top h2 span { color: #b4fa83; }
+.footer-top p { color: #afc5ba; margin: 8px 0; }
+.footer-top .footer-small { font-size: 12px; margin-top: 24px; }
+.footer-links { max-width: 410px; display: flex; flex-wrap: wrap; gap: 16px 28px; align-content: flex-start; }
+.footer-links a { width: 95px; font-size: 14px; color: #e5f0e8; text-decoration: none; }
+.footer-links a:hover { color: #b4fa83; }
+.footer-bottom { border-top: 1px solid #264437; display: flex; justify-content: space-between; gap: 20px; padding-top: 18px; padding-bottom: 24px; }
+.footer-bottom p { color: #90a99b; font-size: 12px; margin: 0; }
+@media only screen and (max-width: 620px) { .footer-top, .footer-bottom { flex-direction: column; } .footer-top { gap: 25px; } .footer-links a { width: 80px; } }

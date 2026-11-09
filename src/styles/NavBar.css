@@ -1,0 +1,20 @@
+/* Navbar: React Router Link + a useState mobile menu, following Week 3–4 examples. */
+.site-nav { background: #08271d; border-bottom: 1px solid #235341; color: white; position: sticky; top: 0; z-index: 30; }
+.nav-inner { width: 92%; max-width: 1240px; min-height: 82px; margin: auto; display: flex; align-items: center; justify-content: space-between; }
+.brand-name { font-size: 31px; font-weight: 900; letter-spacing: -1.6px; margin: 0; color: white; }
+.brand-stop { color: #b4fa83; }
+.nav-links { display: flex; align-items: center; gap: 24px; }
+.nav-links a { color: #d4e3d9; text-decoration: none; font-size: 13px; font-weight: 700; transition: color .2s; }
+.nav-links a:hover { color: #b4fa83; }
+.nav-links .nav-contact { color: #08271d; background: #b4fa83; padding: 12px 18px; border-radius: 6px; }
+.nav-links .nav-contact:hover { color: #08271d; background: #dbffbc; }
+.mobile-menu-button { display: none; background: transparent; color: #b4fa83; border: 1px solid #3b6a54; padding: 10px 16px; border-radius: 5px; cursor: pointer; }
+.mobile-links { display: none; }
+@media only screen and (max-width: 900px) {
+  .nav-inner { min-height: 70px; }
+  .nav-links { display: none; }
+  .mobile-menu-button { display: block; }
+  .mobile-links#open { display: flex; flex-direction: column; padding: 10px 4% 23px; background: #08271d; border-top: 1px solid #194231; }
+  .mobile-links#close { display: none; }
+  .mobile-links a { color: white; text-decoration: none; padding: 11px; font-size: 15px; border-bottom: 1px solid #214b39; }
+}

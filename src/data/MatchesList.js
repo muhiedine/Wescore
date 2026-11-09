@@ -1,0 +1,14 @@
+export const MatchesList = [
+  { id: 1, home: 'Northbridge FC', homeCode: 'NBF', away: 'Harbor City', awayCode: 'HBC', date: '2026-11-02', time: '19:00', status: 'Completed', competition: 'Premier Division', venue: 'Northbridge Arena', homeScore: 2, awayScore: 1 },
+  { id: 2, home: 'Cedar Rovers', homeCode: 'CDR', away: 'Summit FC', awayCode: 'SMT', date: '2026-11-05', time: '20:30', status: 'Completed', competition: 'Premier Division', venue: 'Cedar Park', homeScore: 1, awayScore: 1 },
+  { id: 3, home: 'Riverside United', homeCode: 'RSU', away: 'Valley Wanderers', awayCode: 'VLW', date: '2026-11-07', time: '17:30', status: 'Completed', competition: 'Premier Division', venue: 'Riverside Stadium', homeScore: 3, awayScore: 0 },
+  { id: 4, home: 'Atlas Athletic', homeCode: 'ATA', away: 'Eastport Stars', awayCode: 'EPS', date: '2026-11-08', time: '18:00', status: 'Completed', competition: 'Premier Division', venue: 'Atlas Stadium', homeScore: 2, awayScore: 2 },
+  { id: 5, home: 'Harbor City', homeCode: 'HBC', away: 'Atlas Athletic', awayCode: 'ATA', date: '2026-11-12', time: '20:00', status: 'Upcoming', competition: 'Premier Division', venue: 'Harbor Park', homeScore: null, awayScore: null },
+  { id: 6, home: 'Northbridge FC', homeCode: 'NBF', away: 'Cedar Rovers', awayCode: 'CDR', date: '2026-11-13', time: '21:00', status: 'Upcoming', competition: 'Premier Division', venue: 'Northbridge Arena', homeScore: null, awayScore: null },
+  { id: 7, home: 'Summit FC', homeCode: 'SMT', away: 'Riverside United', awayCode: 'RSU', date: '2026-11-15', time: '18:30', status: 'Upcoming', competition: 'Premier Division', venue: 'Summit Ground', homeScore: null, awayScore: null },
+  { id: 8, home: 'Eastport Stars', homeCode: 'EPS', away: 'Valley Wanderers', awayCode: 'VLW', date: '2026-11-18', time: '19:30', status: 'Upcoming', competition: 'Premier Division', venue: 'Eastport Field', homeScore: null, awayScore: null },
+  { id: 9, home: 'Atlas Athletic', homeCode: 'ATA', away: 'Northbridge FC', awayCode: 'NBF', date: '2026-11-20', time: '20:00', status: 'Upcoming', competition: 'City Cup', venue: 'Atlas Stadium', homeScore: null, awayScore: null },
+  { id: 10, home: 'Cedar Rovers', homeCode: 'CDR', away: 'Harbor City', awayCode: 'HBC', date: '2026-11-22', time: '19:00', status: 'Upcoming', competition: 'City Cup', venue: 'Cedar Park', homeScore: null, awayScore: null },
+  { id: 11, home: 'Riverside United', homeCode: 'RSU', away: 'Eastport Stars', awayCode: 'EPS', date: '2026-11-25', time: '18:00', status: 'Upcoming', competition: 'Premier Division', venue: 'Riverside Stadium', homeScore: null, awayScore: null },
+  { id: 12, home: 'Valley Wanderers', homeCode: 'VLW', away: 'Summit FC', awayCode: 'SMT', date: '2026-11-29', time: '20:15', status: 'Upcoming', competition: 'Premier Division', venue: 'Valley Park', homeScore: null, awayScore: null }
+];
