@@ -2,12 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { MatchesList } from '../data/MatchesList';
 import MatchCard from '../components/MatchCard';
-
 function Home() {
   const featured = MatchesList.filter(match => match.id === 5 || match.id === 6 || match.id === 7);
-
-  return (
-    <div>
+  return <div>
       <section className="hero">
         <div className="container hero-grid">
           <div className="hero-copy">
@@ -56,8 +53,6 @@ function Home() {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 }
-
 export default Home;

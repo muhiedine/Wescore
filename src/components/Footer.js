@@ -1,15 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Footer.css';
-
 function Footer() {
-  return (
-    <footer className="site-footer">
+  return <footer className="site-footer">
       <div className="container footer-top">
         <div>
           <h2>WeScore</h2>
           <p>Every match. Every moment. One place.</p>
-          <p className="footer-small">A Demo Football App</p>
+          <p className="footer-small">A CSCI426 Phase 1 frontend demonstration.</p>
         </div>
         <div className="footer-links">
           <Link to="/matches">Matches</Link>
@@ -22,10 +20,8 @@ function Footer() {
       </div>
       <div className="container footer-bottom">
         <p>© 2026 WeScore. Academic project.</p>
-        <p>Scores and Teams are fictional.</p>
+        <p>Scores and teams are fictional demonstration data.</p>
       </div>
-    </footer>
-  );
+    </footer>;
 }
-
 export default Footer;

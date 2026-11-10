@@ -1,14 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/NavBar.css';
-
 function NavBar() {
   const [openLinks, setOpenLinks] = useState(false);
   const toggleNavbar = () => setOpenLinks(!openLinks);
   const closeNavbar = () => setOpenLinks(false);
-
-  return (
-    <nav className="site-nav">
+  return <nav className="site-nav">
       <div className="nav-inner">
         <h1 className="brand-name">WeScore</h1>
         <div className="nav-links">
@@ -33,8 +30,6 @@ function NavBar() {
         <Link to="/about" onClick={closeNavbar}>About</Link>
         <Link to="/contact" onClick={closeNavbar}>Contact</Link>
       </div>
-    </nav>
-  );
+    </nav>;
 }
-
 export default NavBar;

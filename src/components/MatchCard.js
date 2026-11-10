@@ -1,8 +1,10 @@
 import React from 'react';
-
-function MatchCard({ match, isSaved, onSave }) {
-  return (
-    <div className="match-card">
+function MatchCard({
+  match,
+  isSaved,
+  onSave
+}) {
+  return <div className="match-card">
       <div className="match-topline">
         <p>{match.competition}</p>
         <p className={match.status === 'Completed' ? 'status completed' : 'status'}>{match.status}</p>
@@ -20,8 +22,6 @@ function MatchCard({ match, isSaved, onSave }) {
         <p>{match.venue}</p>
         {onSave && <button type="button" className="save-button" onClick={() => onSave(match.id)}>{isSaved ? '★ Saved' : '☆ Favourite'}</button>}
       </div>
-    </div>
-  );
+    </div>;
 }
-
 export default MatchCard;

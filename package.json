@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "CSCI426 Phase 1 - WeScore football frontend",
+  "homepage": "https://muhiedine.github.io/Wescore",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
