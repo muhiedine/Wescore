@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Wescore/static/css/main.193f329d.css",
-    "main.js": "/Wescore/static/js/main.7d8925eb.js",
+    "main.js": "/Wescore/static/js/main.e11e41a5.js",
     "index.html": "/Wescore/index.html",
     "main.193f329d.css.map": "/Wescore/static/css/main.193f329d.css.map",
-    "main.7d8925eb.js.map": "/Wescore/static/js/main.7d8925eb.js.map"
+    "main.e11e41a5.js.map": "/Wescore/static/js/main.e11e41a5.js.map"
   },
   "entrypoints": [
     "static/css/main.193f329d.css",
-    "static/js/main.7d8925eb.js"
+    "static/js/main.e11e41a5.js"
   ]
 }
