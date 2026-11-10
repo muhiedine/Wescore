@@ -918,3 +918,86 @@
      width: 100%;
   }
 }
+
+/* Lecturer feedback: center the opening text on every page. */
+.inner-hero {
+  text-align: center;
+}
+
+.hero-grid {
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+.hero-copy {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-copy .eyebrow,
+.hero-actions {
+  justify-content: center;
+}
+
+.hero-description {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-panel {
+  width: 100%;
+  max-width: 570px;
+  margin: 0 auto;
+  transform: none;
+}
+
+/* Shared card animation keeps the original grids and React components. */
+.match-card,
+.team-card,
+.feature-card,
+.info-tiles > div,
+.hero-panel,
+.contact-panel,
+.contact-form-card {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .match-card:hover,
+  .team-card:hover,
+  .feature-card:hover,
+  .info-tiles > div:hover,
+  .hero-panel:hover,
+  .contact-panel:hover,
+  .contact-form-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 36px rgba(11, 37, 22, 0.16);
+    border-color: #79aa80;
+  }
+}
+
+.match-card:focus-within,
+.team-card:focus-within,
+.feature-card:focus-within,
+.contact-form-card:focus-within {
+  box-shadow: 0 16px 36px rgba(11, 37, 22, 0.16);
+  border-color: #79aa80;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .match-card,
+  .team-card,
+  .feature-card,
+  .info-tiles > div,
+  .hero-panel,
+  .contact-panel,
+  .contact-form-card {
+    transition: none;
+    transform: none !important;
+  }
+}
