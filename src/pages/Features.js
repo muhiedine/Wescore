@@ -34,14 +34,71 @@ function Features() {
   }, {
     no: '06',
     title: 'Contact form',
-    text: 'Try an interactive form with React state and required input validation.',
+    text: 'Try To Send Us A New Feature.',
     path: '/contact',
     action: 'Contact us'
   }];
-  return <div><section className="inner-hero"><div className="container"><p className="section-kicker light-kicker">DISCOVER / FEATURES</p><h2>EVERYTHING YOU NEED.<br /><span>NOTHING YOU DON'T.</span></h2><p>A connected football experience, built with lecture-taught React methods.</p></div></section>
-      <section className="section section-light"><div className="container"><div className="section-heading"><div><p className="section-kicker">THE PLATFORM</p><h2>What you can do</h2></div></div>
-        <div className="card-grid three">{features.map(feature => <div className="feature-card" key={feature.no}><span>{feature.no}</span><h3>{feature.title}</h3><p>{feature.text}</p><Link to={feature.path}> {feature.action} ↗</Link></div>)}</div>
-      </div></section>
-    </div>;
+ return (
+  <div>
+    <section className="inner-hero">
+      <div className="container">
+        <p className="section-kicker light-kicker">
+          DISCOVER / FEATURES
+        </p>
+
+        <h2>
+          EVERYTHING YOU NEED.
+          <br />
+          <span>NOTHING YOU DON'T.</span>
+        </h2>
+
+        <p>
+          A Connected Football Experience.
+        </p>
+      </div>
+    </section>
+
+    <section className="section section-light">
+      <div className="container">
+        <div className="section-heading">
+          <div>
+            <p className="section-kicker">
+              THE PLATFORM
+            </p>
+
+            <h2>
+              What you can do
+            </h2>
+          </div>
+        </div>
+
+        <div className="card-grid three">
+          {features.map((feature) => (
+            <div
+              className="feature-card"
+              key={feature.no}
+            >
+              <span>
+                {feature.no}
+              </span>
+
+              <h3>
+                {feature.title}
+              </h3>
+
+              <p>
+                {feature.text}
+              </p>
+
+              <Link to={feature.path}>
+                {feature.action} ↗
+              </Link>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  </div>
+);
 }
 export default Features;

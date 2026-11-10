@@ -1,4 +1,4 @@
-/* Navbar: React Router Link + a useState mobile menu, following Week 3–4 examples. */ .site-nav {
+/* Navbar */ .site-nav {
    background: #08271d;
    border-bottom: 1px solid #235341;
    color: white;

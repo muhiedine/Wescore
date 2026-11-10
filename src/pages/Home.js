@@ -45,7 +45,7 @@ function Home() {
 
       <section className="section section-dark">
         <div className="container split-feature">
-          <div><p className="section-kicker light-kicker">02 / BUILT FOR SUPPORTERS</p><h2>KEEP YOUR EYE<br /><span>ON THE BALL.</span></h2><p>From fixtures to standings, WeScore is designed to make finding football information feel simple and immediate.</p><Link className="button button-lime" to="/features">See the features <span>↗</span></Link></div>
+          <div><p className="section-kicker light-kicker">02 / BUILT FOR SUPPORTERS</p><h2>KEEP YOUR EYE<br /><span>ON THE BALL.</span></h2><p>From Fixtures To Standings, WeScore Got You Covered.</p><Link className="button button-lime" to="/features">See the features <span>↗</span></Link></div>
           <div className="info-tiles">
             <div><span>01</span><h3>Find the fixture</h3><p>Filter or search the match schedule.</p></div>
             <div><span>02</span><h3>Know your team</h3><p>Browse sample clubs and league records.</p></div>

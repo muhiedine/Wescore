@@ -7,7 +7,7 @@ function Footer() {
         <div>
           <h2>WeScore</h2>
           <p>Every match. Every moment. One place.</p>
-          <p className="footer-small">A CSCI426 Phase 1 frontend demonstration.</p>
+          <p className="footer-small">Explore The World Of Football.</p>
         </div>
         <div className="footer-links">
           <Link to="/matches">Matches</Link>
@@ -19,8 +19,7 @@ function Footer() {
         </div>
       </div>
       <div className="container footer-bottom">
-        <p>© 2026 WeScore. Academic project.</p>
-        <p>Scores and teams are fictional demonstration data.</p>
+        <p>© 2026 WeScore.</p>
       </div>
     </footer>;
 }
