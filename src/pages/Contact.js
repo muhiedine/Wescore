@@ -33,9 +33,9 @@ function Contact() {
     }
 
     alert(
-      'Demo form submitted successfully!\n' +
-      JSON.stringify(values, null, 2) +
-      '\n\nThis form does not send an email.'
+      'fname: ' + values.fname + '\n' +
+      'email: ' + values.email + '\n' +
+      'message: ' + values.message
     );
   };
 
